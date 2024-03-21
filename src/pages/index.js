@@ -52,11 +52,11 @@ const Home = () => {
     <div className=" bg-dark  text-white" style={{ fontFamily: "gilroy" }}>
       <Navbar/>
       <div
-        className="container py-5 text-center mb-5 position-relative d-none d-md-block "
+        className="container py-1 py-md-5 text-center mb-5 position-relative d-none d-md-block "
         style={{ height: "100%" }}
       >
         <p className="fs-4" style={{textTransform:'capitalize'}}>
-          👋 , my name is Shivani Chouksey & I am a Full Stack Developer (MERN)
+          👋 , My Name Is Shivani Chouksey & I am A Full Stack Developer (MERN)
         </p>
         <h1
           className=" fw-bold heading2"
@@ -109,7 +109,7 @@ const Home = () => {
         style={{ height: "100%" }}
       >
         <div className="col-12">
-          <p className="fs-4 text-center">
+          <p className="fs-4 text-center" style={{textTransform:"capitalize"}}>
             👋 , my name is Shivani Chouksey and Iam a Full Stack Developer (
             MERN )
           </p>
@@ -194,7 +194,7 @@ const Home = () => {
               />
             </div>
           </div>
-          <div className="col-md-6 p-5 col-12">
+          <div className="col-md-6 p-3 p-md-5  col-12">
             <h1>I'm A MERN Stack Developer</h1>
             <p>I have dedicated myself to becoming a Full Stack Developer, driven
               by my passion, for creating web experiences. Over the 9 months I
@@ -316,7 +316,7 @@ const Home = () => {
           </button>
           <div className="row my-5 gap-2">
             <div className="col-md-1 col-2 bg-white d-flex justify-center align-middle p-1">
-              <img width={70} src="/Skill/React-icon.svg.webp" alt="" />
+              <img width={70} style={{objectPosition:"center"}} src="/Skill/React-icon.svg.webp" alt="" />
             </div>
             <div className="col-md-1 col-2 bg-white d-flex justify-center align-middle p-1">
               <img width={70} src="/Skill/next-js.svg" alt="" />
@@ -1159,20 +1159,13 @@ const Home = () => {
                         border: "7px solid #fff",
                       }}
                     >
-                      <video
-                        width="640"
-                        style={{ height: "100%" }}
-                        controls
-                        autoPlay
-                        loop
-                        muted
-                      >
-                        <source
-                          src="/Projects/LandingPages/LandingPage1.mp4"
-                          type="video/mp4"
-                        />
-                        Your browser does not support the video tag.
-                      </video>
+                       <img   src="/Projects/LandingPages/LandingPage1.png"  style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit:"cover" 
+
+                      }} />
+                      
                     </div>
 
                     <h2 className="  mt-2  text-center fw-bold">
@@ -1418,9 +1411,9 @@ const Home = () => {
               </Link>
             </p>
           </div>
-          <div className="col-md-6 col-12 p-md-5 px-2 ">
+          <div className="col-md-6 col-12  p-md-5 px-auto px-md-2 ">
             <form className="row g-3 " onSubmit={handleSubmit}>
-              <div className="col-md-6 col-10">
+              <div className="col-md-6 col-10 mx-auto">
                 <label htmlFor="inputname" className="form-label">
                   Enter Your Name
                 </label>
@@ -1434,7 +1427,7 @@ const Home = () => {
                   value={inputData.name}
                 />
               </div>
-              <div className="col-md-6 col-10">
+              <div className="col-md-6 col-10 mx-auto">
                 <label htmlFor="inputnumber" className="form-label">
                   Enter Your Number
                 </label>
@@ -1445,7 +1438,7 @@ const Home = () => {
                   placeholder="Enter Number"
                 />
               </div>
-              <div className="col-md-12 col-10">
+              <div className="col-md-12 col-10 mx-auto">
                 <label htmlFor="inputemail" className="form-label">
                   Enter Email
                 </label>
@@ -1459,7 +1452,7 @@ const Home = () => {
                   value={inputData.email}
                 />
               </div>
-              <div className="col-md-12 col-10">
+              <div className="col-md-12 col-10 mx-auto">
                 <label htmlFor="inputsubject" className="form-label">
                   Subject
                 </label>
@@ -1471,7 +1464,7 @@ const Home = () => {
                   name="subject"
                 />
               </div>
-              <div className="col-md-12 col-10">
+              <div className="col-md-12 col-10 mx-auto">
                 <label
                   htmlFor="exampleFormControlTextarea1"
                   className="form-label"
@@ -1489,7 +1482,7 @@ const Home = () => {
                 ></textarea>
               </div>
 
-              <div className="col-md-12  col-10">
+              <div className="col-md-12  col-10 mb-3 mx-auto">
                 <button
                   type="submit"
                   className="btn btn-info fw-bold text-white"

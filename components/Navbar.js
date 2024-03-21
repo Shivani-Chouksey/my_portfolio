@@ -23,11 +23,11 @@ const Navbar = () => {
                      Shivani <span className="text-info">Chouksey</span>
                     </Link>
                     <div className="offcanvas offcanvas-start"  tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                        <div className="offcanvas-header">
-                        Shivani <span className="text-info">Chouksey</span>
-                            <button id='userNavbarClose' type="button" className="btn-close bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <div className="offcanvas-header bg-black">
+                         <span className="text-info"> Shivani Chouksey</span>
+                            <button id='userNavbarClose' type="button" className="btn-close text-white mb-2  d-flex align-middle justify-center" data-bs-dismiss="offcanvas" aria-label="Close"> <i class="bi bi-x-circle fs-3"></i></button>
                         </div>
-                        <div className="offcanvas-body">
+                        <div className="offcanvas-body bg-black">
                             <ul className="navbar-nav primary-color flex-grow-1 ms-lg-5 text-uppercase gap-3 justify-content-end ">
                                
                                 <li className="nav-item">
