@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+/* @tailwind utilities; */
+
+.text-stroked-heading {
+    color: white; /* Set the color of your text */
+    background-clip: text; /* This property ensures that the background only applies to the text */
+    -webkit-background-clip: text; /* For Safari support */
+    text-shadow: 
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000; /* This creates a text stroke effect using multiple shadows */
+  }
+
+
+.text-stroked {
+  color: #212529;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 #eae6e6, -1px 1px 0 #ffffff, 1px 1px 0 #fefbfb;
+  display: inline-block; /* Ensure that the background-clip works */
+ 
+}
+.text-stroked:hover{
+  color: #ffffff;
+  cursor: grab;
+
+}
+.heading2:hover  {
+  color: #212529;
+  cursor: grab;
+z-index: 9999;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 #eae6e6, -1px 1px 0 #ffffff, 1px 1px 0 #fefbfb;
+
+}
+
+.pro-tab .active{
+  color: white;
+  background-color: #212529 !important;
+  border: 2px solid white ;
+  border-radius: 10px;
+}
+
+
+.accordion{
+--bs-accordion-bg:transparent !important;
+--bs-accordion-color:#ffffff !important;
+--bs-accordion-active-bg:"#fff" !important;
+--bs-accordion-btn-focus-box-shadow: none !important;
+--bs-accordion-active-color:#0DCAF0  !important;
+}
+.accordion-button {
+display: block !important;
+padding: 1em 0 !important;
+border: none !important;
+background: none !important;
+outline: none !important;
+}
+.accordion-button{
+  color: white !important;
+}
+.accordion-button:hover, .accordion-button:focus {
+color: #478ad2 !important;
+border:0 !important;
+}
+.accordion-button:not(.collapsed) {
+box-shadow: none !important;
+}
+.accordion-item {
+border: 0 !important;
+margin-left: 1rem !important;
+}
+
+/* Additional styling if needed */
