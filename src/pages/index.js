@@ -316,31 +316,31 @@ const Home = () => {
           </button>
           <div className="row my-5 gap-2">
             <div className="col-md-1 col-2 bg-white d-flex justify-center align-middle p-1">
-              <img width={70} style={{objectPosition:"center"}} src="/Skill/React-icon.svg.webp" alt="" />
+              <img width={70} style={{objectPosition:"center"}} src="/skill/React-icon.svg.webp" alt="" />
             </div>
             <div className="col-md-1 col-2 bg-white d-flex justify-center align-middle p-1">
-              <img width={70} src="/Skill/next-js.svg" alt="" />
+              <img width={70} src="/skill/next-js.svg" alt="" />
             </div>
             <div className="col-md-1 col-2  bg-white d-flex justify-center align-middle p-1">
-              <img width={70} src="/Skill/node-min.webp" alt="" />
+              <img width={70} src="/skill/node-min.webp" alt="" />
             </div>
             <div className="col-md-1 col-2  bg-white d-flex justify-center align-middle p-1">
-              <img width={70} src="/Skill/js-min.webp" alt="" />
+              <img width={70} src="/skill/js-min.webp" alt="" />
             </div>
             <div className="col-md-1 col-2  bg-white d-flex justify-center align-middle p-1">
-              <img width={70} src="/Skill/mongodb-min.webp" alt="" />
+              <img width={70} src="/skill/mongodb-min.webp" alt="" />
             </div>
             <div className="col-md-1 col-2  bg-white d-flex justify-center align-middle p-1">
-              <img width={70} src="/Skill/html-min.webp" alt="" />
+              <img width={70} src="/skill/html-min.webp" alt="" />
             </div>
             <div className="col-md-1 col-2  bg-white d-flex justify-center align-middle p-1">
-              <img width={70} src="/Skill/css-min.webp" alt="" />
+              <img width={70} src="/skill/css-min.webp" alt="" />
             </div>
             <div className="col-md-1 col-2  bg-white d-flex justify-center align-middle p-1">
-              <img width={70} src="/Skill/bootstrap.png" alt="" />
+              <img width={70} src="/skill/bootstrap.png" alt="" />
             </div>
             <div className="col-md-1 col-2  bg-white d-flex justify-center align-middle p-1">
-              <img width={70} src="/Skill/wordpress.png" alt="" />
+              <img width={70} src="/skill/wordpress.png" alt="" />
             </div>
           </div>
         </div>
@@ -351,7 +351,7 @@ const Home = () => {
           </button>
           <div className="row my-5 gap-2">
             <div className="col-md-1 col-2 bg-white d-flex justify-center align-middle p-1">
-              <img width={70} src="/Skill/figma-min.webp" alt="" />
+              <img width={70} src="/skill/figma-min.webp" alt="" />
             </div>
           </div>
         </div>
