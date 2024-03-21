@@ -311,7 +311,7 @@ const Home = () => {
           className=" fw-bold heading2 d-md-none"
           style={{ fontSize: "11vw" }}
         >
-          Thinks I'am <span className="text-info">Good</span> at
+           I'm <span className="text-info">Good</span> At
         </h1>
 
         <h2>skills, interests, passion and hobbies</h2>
