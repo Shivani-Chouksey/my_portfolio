@@ -105,7 +105,7 @@ const Home = () => {
         </div>
       </div>
       <div
-        className="container py-5 text-center my-5 position-relative d-md-none row"
+        className="container py-2 text-center mt-3 mb-5 position-relative d-md-none row"
         style={{ height: "100%" }}
       >
         <div className="col-12">
@@ -143,13 +143,19 @@ const Home = () => {
               alt="mg"
             />
           </div>
-          <div className="d-flex justify-between px-5  mt-4  mx-auto">
-            <button className="btn btn-outline-light px-3 me-1">
+          <div className="d-flex justify-between px-2  mt-4  mx-auto">
+          <Link className="btn btn-outline-light px-3 me-3" href="#contact">
               Say Hi <i className="bi bi-send-arrow-down ms-2 fw-bold"></i>{" "}
-            </button>
-            <button className="btn btn-outline-light px-3 ms-1" href="">
+            </Link>
+           
+            <Link
+              className="btn btn-outline-light px-3"
+              href="/RESUME.pdf"
+              target="_blank"
+              download={"Shivani Chouksey Resume"}
+            >
               Download My CV<i className="bi bi-download ms-2 fw-bold"></i>
-            </button>
+            </Link>
           </div>
         </div>
       </div>
