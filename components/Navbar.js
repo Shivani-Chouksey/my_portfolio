@@ -83,7 +83,7 @@ const Navbar = () => {
                 </li>
                 <Link
                   className="btn btn-info px-3 text-white rounded-pill"
-                  href="/RESUME.pdf"
+                  href="/Shivani_Chouksey_Resume.pdf"
                   target="_blank"
                   download={"Shivani Chouksey Resume"}
                 >
@@ -128,7 +128,7 @@ const Navbar = () => {
                 </li>
                 <Link
                   className="btn btn-info px-3 text-white rounded-pill"
-                  href="/RESUME.pdf"
+                  href="/Shivani_Chouksey_Resume.pdf"
                   target="_blank"
                   download={"Shivani Chouksey Resume"}
                 >

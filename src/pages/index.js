@@ -95,7 +95,7 @@ const Home = () => {
             </Link>
             <Link
               className="btn btn-outline-light px-3"
-              href="/RESUME.pdf"
+              href="/Shivani_Chouksey_Resume.pdf"
               target="_blank"
               download={"Shivani Chouksey Resume"}
             >
@@ -150,7 +150,7 @@ const Home = () => {
            
             <Link
               className="btn btn-outline-light px-3"
-              href="/RESUME.pdf"
+              href="/Shivani_Chouksey_Resume.pdf"
               target="_blank"
               download={"Shivani Chouksey Resume"}
             >
